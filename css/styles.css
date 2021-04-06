@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+    background-image: linear-gradient(to right, #0127FF , #01FFF7);
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+}
+
+i {
+    color: #0127FF;
+}
+
+i:hover {
+    color: #01FFF7;
+}
+
+a {
+    text-decoration: none;
+    color: #0127FF;
+}

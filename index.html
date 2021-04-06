@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic Mirror</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Kiwi+Maru&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Rithik's Magic Mirror</h1>
+    <p>Choose a special effect and make a silly face!</p>
+    <video autoplay></video>
+    <br />
+    <select>
+      <option value="">Choose an effect</option>
+      <option value="blur(10px)">Blur</option>
+      <option value="contrast(500%)">Contrast</option>
+      <option value="hue-rotate(90deg)">Color 1</option>
+      <option value="hue-rotate(180deg)">Color 2</option>
+      <option value="hue-rotate(270deg)">Color 3</option>
+      <option value="invert(100%)">Invert</option>
+      <option value="grayscale(100%)">Grayscale</option>
+      <option value="hue-rotate(180deg) invert(100%) grayscale(50%)">
+        Ghost
+      </option>
+      <option
+        value="blur(2px) brightness(100%) contrast(600%) saturate(1000%) hue-rotate(200deg)"
+      >
+        Pop Art
+      </option>
+    </select><br><br>
+    <a href="https://github.com/Code2Rithik/magic-mirror"><i class="fab fa-github"></i> Source Code </a>
+    <script src="src/script.js"></script>
+  </body>
+</html>
